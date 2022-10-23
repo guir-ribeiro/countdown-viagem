@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+#mestre{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 8px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: -0.5rem 2rem;
+}
+
+.bloco{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bloco span{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
