@@ -3,8 +3,6 @@ const horas = document.querySelector("#horas");
 const minutos = document.querySelector("#minutos");
 const segundos = document.querySelector("#segundos");
 
-
-
 function contagem (){
     const moment = new Date("19 dec 2022");
     const dataAtual = new Date();
@@ -19,7 +17,6 @@ function contagem (){
     horas.innerHTML = formatTime(totalhoras);
     minutos.innerHTML = formatTime(totalminutos);
     segundos.innerHTML = formatTime(totalSegundos);
-
 }
 
 function formatTime(time){
