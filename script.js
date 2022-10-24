@@ -27,7 +27,6 @@ function formatTime(time){
     return timer
 }
 
-
 setInterval(contagem,1000)
 
 alert("Eu sei que está morrendo de Saudades!")
