@@ -4,7 +4,7 @@ const minutos = document.querySelector("#minutos");
 const segundos = document.querySelector("#segundos");
 
 function contagem (){
-    const moment = new Date("28 jun 2023");
+    const moment = new Date("23 sep 2023");
     const dataAtual = new Date();
 
     const diferencaSegundos = (moment - dataAtual)/ 1000;
@@ -26,4 +26,3 @@ function formatTime(time){
 
 setInterval(contagem,1000)
 
-alert("Eu sei que está morrendo de Saudades!")
