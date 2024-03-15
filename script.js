@@ -4,7 +4,7 @@ const minutos = document.querySelector("#minutos");
 const segundos = document.querySelector("#segundos");
 
 function contagem (){
-    const moment = new Date("23 sep 2023");
+    const moment = new Date("21 jun 2024");
     const dataAtual = new Date();
 
     const diferencaSegundos = (moment - dataAtual)/ 1000;
